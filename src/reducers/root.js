@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux'
-import { reducer as formReducer } from 'redux-form'
 
 import performers from './performers'
 import festivals from './festivals'
+import modals from './modals'
 
 export default combineReducers({
     performers,
     festivals,
-    form: formReducer,
+    modals,
 })

@@ -35,3 +35,9 @@ button a {
 .pagination a:focus{
     outline: none;
 }
+.pagination li.disabled a {
+    cursor: default;
+    color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.12);
+    border-color: rgba(0, 0, 0, 0.12);
+}
